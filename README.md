@@ -48,7 +48,11 @@ This template is based on several tutorials like followings
     git add .
     git commit -m "First commit"
     ```
-
+1.  If needed, personalise repository
+    ```
+    git config user.name "<name>"
+    git config user.email "<email>"
+    ```
 
 # Create new NPM package based on template
 
