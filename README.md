@@ -64,11 +64,11 @@ This template is based on several tutorials like followings
 
 1.  When `package.json` has been finalised regarding needed packages install latest versions of each configured package to start with
     ```
-    npx npm-check-updates && npm-check-updates -u && npm install
+    npx npm-check-updates && npx npm-check-updates -u && npm install
     ```
     If needed, force it
     ```
-    npx npm-check-updates && npm-check-updates -u && npm install --force
+    npx npm-check-updates && npx npm-check-updates -u && npm install --force
     ```    
 1. Create source code of package in folder `src`
 1. Create tests of package in folder `test`
